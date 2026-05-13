@@ -4,89 +4,188 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Home - Shyaum Bhardwaj's Work-Term Report</title>
+  <title>Shyaum Bhardwaj | RBC Mainframe Co-op Portfolio</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts & Vendor CSS Files -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <h1 class="sitename">Shyaum Bhardwaj</h1>
-        <br>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
+  <header>
+    <div class="container-fluid">
+      <div class="logo">
+        <h1>SB</h1>
+      </div>
+      <nav class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Co-op</a></li>
           <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Co-op Experience</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
     </div>
   </header>
 
-  <main class="main">
+  <main>
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <img src="assets/img/about.jpg" alt="Shyaum Bhardwaj" class="hero-profile-img" data-aos="fade-in">
-        <h2>Shyaum Bhardwaj</h2>
-        <p>I'm a <span class="typed" data-typed-items="Webmaster, Developer, Computer Science Student"></span><span class="typed-cursor typed-cursor--blink"></span></p>
+    <section class="hero">
+      <div class="hero-content">
+        <img src="assets/img/about.jpg" alt="Shyaum Bhardwaj" class="hero-profile-img">
+        <h1>Co-op Work-Term Report</h1>
+        <p id="rotating-text" class="rotating-text">Computer Science Co-op</p>
+        <p class="hero-description">A creative journey through technical learning, professional growth, and real-world impact at UofG and RBC</p>
+        <div class="hero-actions">
+          <a href="#abstract" class="btn btn-primary">Explore Report</a>
+          <a href="portfolio.html" class="btn btn-secondary">View Experience</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Abstract Section -->
+    <section id="abstract" class="section">
+      <h2>Abstract</h2>
+      <p>This work-term report presents a comprehensive overview of internship experiences at the University of Guelph and Royal Bank of Canada. The report captures academic learning outcomes, professional development, and technical achievements through an interactive online portfolio.</p>
+      <p>Each co-op term represents distinct learning objectives, challenging problem-solving scenarios, and meaningful contributions to production systems managing millions of transactions.</p>
+      <div class="grid">
+        <div class="card">
+          <h4>Webmaster Co-op</h4>
+          <p>Web content management and department communications at University of Guelph History Department.</p>
+        </div>
+        <div class="card">
+          <h4>Summer 2025 RBC</h4>
+          <p>Mainframe support and automation engineering for critical banking infrastructure.</p>
+        </div>
+        <div class="card">
+          <h4>Winter 2026 RBC</h4>
+          <p>Advanced mainframe operations, delivery workflows, and systems automation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Employer Section -->
+    <section id="employer" class="section">
+      <h2>Employer Overview</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>University of Guelph</h4>
+          <p>A leading Canadian research institution focusing on education, innovation, and community engagement. The History Department values accessible digital content and effective stakeholder communication.</p>
+        </div>
+        <div class="card">
+          <h4>Royal Bank of Canada</h4>
+          <p>One of North America's largest financial institutions managing complex mainframe systems that process billions in daily transactions. RBC prioritizes reliability, security, and continuous innovation in banking technology.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="section">
+      <h2>Learning Goals</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>Technical Goals</h4>
+          <ul style="color: var(--text-secondary); list-style: none; padding: 0;">
+            <li>▸ Master web content management and accessibility standards</li>
+            <li>▸ Understand mainframe operations and enterprise systems</li>
+            <li>▸ Develop automation solutions for production workflows</li>
+            <li>▸ Build reliable, scalable backend infrastructure</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Professional Goals</h4>
+          <ul style="color: var(--text-secondary); list-style: none; padding: 0;">
+            <li>▸ Communicate complex technical solutions clearly</li>
+            <li>▸ Collaborate effectively with diverse teams</li>
+            <li>▸ Document work comprehensively for knowledge transfer</li>
+            <li>▸ Develop problem-solving and critical thinking skills</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Job Description Section -->
+    <section id="job-description" class="section">
+      <h2>Job Responsibilities</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>Key Duties</h4>
+          <ul style="color: var(--text-secondary); list-style: none; padding: 0;">
+            <li>▸ Content management and website updates</li>
+            <li>▸ Mainframe monitoring and operational support</li>
+            <li>▸ Automation scripting and workflow optimization</li>
+            <li>▸ Release management and deployment coordination</li>
+            <li>▸ Technical documentation and knowledge sharing</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Technologies & Tools</h4>
+          <ul style="color: var(--text-secondary); list-style: none; padding: 0;">
+            <li>▸ HTML, CSS, JavaScript - Web Development</li>
+            <li>▸ Mainframe Operations & Batch Processing</li>
+            <li>▸ Automation Scripting & Testing</li>
+            <li>▸ Git & Version Control</li>
+            <li>▸ CI/CD & Release Management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reflection Section -->
+    <section id="reflection" class="section">
+      <h2>Reflection & Learning Outcomes</h2>
+      <p>These co-op terms provided invaluable insights into professional software development. Moving from web-based content management to enterprise-scale mainframe operations expanded my understanding of system reliability, performance optimization, and the importance of thorough documentation.</p>
+      <p>The most significant learning came from balancing immediate project deadlines with long-term code quality and maintainability. Working with production systems that affect millions of customers reinforced the critical importance of rigorous testing, clear communication, and attention to detail.</p>
+      <div class="grid">
+        <div class="card">
+          <h4>Technical Growth</h4>
+          <p>Deepened understanding of systems programming, automation engineering, and enterprise architecture patterns.</p>
+        </div>
+        <div class="card">
+          <h4>Professional Development</h4>
+          <p>Improved communication skills, project management capabilities, and ability to work effectively in diverse team environments.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Acknowledgements Section -->
+    <section id="acknowledgements" class="section">
+      <h2>Acknowledgements</h2>
+      <p>I extend my gratitude to the mentors, managers, and colleagues who contributed to these meaningful learning experiences. Special thanks to:</p>
+      <ul style="color: var(--text-secondary); list-style: none; padding: 1rem 0;">
+        <li>▸ University of Guelph Co-op Coordinators for program support and guidance</li>
+        <li>▸ History Department supervisors for mentorship in content management</li>
+        <li>▸ RBC Mainframe teams for technical expertise and professional development</li>
+        <li>▸ Colleagues and peers for collaboration and shared knowledge</li>
+      </ul>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section">
+      <h2>Resources & References</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>University of Guelph</h4>
+          <p>Co-operative Education program information and employer resources at <a href="https://www.uoguelph.ca/co-op" target="_blank" style="color: var(--accent-cyan);">Recruit Guelph</a></p>
+        </div>
+        <div class="card">
+          <h4>Co-op Support</h4>
+          <p>Contact the School of Computer Science Co-op Coordinators at <a href="mailto:socscoop@uoguelph.ca" style="color: var(--accent-cyan);">socscoop@uoguelph.ca</a></p>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <h3 class="sitename">Shyaum Bhardwaj</h3>
-      <p>Welcome to my work-term report. This page highlights my journey and accomplishments as a Webmaster during my co-op term.</p>
-      <div class="social-links d-flex justify-content-center">
-        <!-- Add links to your profiles here -->
-        <a href="#"><i class="bi bi-linkedin"></i></a>
-        <a href="#"><i class="bi bi-github"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Shyaum Bhardwaj</strong> <span>All Rights Reserved</span>
-        </div>
-      </div>
-    </div>
+  <footer>
+    <p>&copy; 2024 Shyaum Bhardwaj | University of Guelph Co-op Report</p>
+    <p class="copyright">All rights reserved</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var typed = new Typed('.typed', {
-        strings: ['Webmaster', 'Developer', 'Computer Science Student'],
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 1000,
-        startDelay: 500,
-        loop: true
-      });
-    });
-  </script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
