@@ -5,192 +5,204 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Resume - Shyaum Bhardwaj</title>
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts & Vendor CSS Files -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <h1 class="sitename">Shyaum Bhardwaj</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
+  <header>
+    <div class="container-fluid">
+      <div class="logo">
+        <h1>SB</h1>
+      </div>
+      <nav class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Co-op</a></li>
           <li><a href="resume.html" class="active">Resume</a></li>
-          <li><a href="portfolio.html">Co-op Experience</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
     </div>
   </header>
 
-  <main class="main">
-    <section class="resume section" data-aos="fade-up">
-      <div class="container">
+  <main>
+
+    <section class="hero" style="min-height: 38vh; padding-bottom: 2rem;">
+      <div class="hero-content">
         <h1>Shyaum Bhardwaj</h1>
-        <p>Guelph, ON | 519-731-6341 | <a href="mailto:shyaum@uoguelph.ca">shyaum@uoguelph.ca</a></p>
-        <p><a href="https://www.linkedin.com/in/shyaum-bhardwaj/">LinkedIn</a> | <a href="https://github.com/ShyaumBhardwaj">GitHub</a></p>
-
-        <section>
-          <h2>Education</h2>
-          <h3>Bachelor of Computing in Computer Science, Co-op</h3>
-          <p>University of Guelph, College of Engineering and Physical Sciences, Guelph, ON</p>
-          <ul>
-            <li>Expected Completion: April 2027</li>
-            <li>Entrance Scholarship Recipient</li>
-            <li>GPA: 9/10</li>
-            <li>Minoring in Mathematics</li>
-          </ul>
-
-          <h3>Modern Delhi Public School</h3>
-          <p>Faridabad, India</p>
-          <ul>
-            <li>Convocation Date: June 2021</li>
-            <li>CGPA: 9.5/10</li>
-            <li>Top 10% of the department</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Experience</h2>
-
-          <h3>Tech Systems Analyst</h3>
-          <p>RBC Mainframe Department</p>
-          <p>May 2025 - August 2025</p>
-          <ul>
-            <li>Supported enterprise mainframe operations and monitored nightly batch workloads.</li>
-            <li>Documented job dependencies, improved incident triage, and reduced response time.</li>
-            <li>Validated critical data flows and maintained production process reliability.</li>
-            <li>Prepared operational reports and improved visibility for operations stakeholders.</li>
-          </ul>
-
-          <h3>Developer</h3>
-          <p>RBC Mainframe Department</p>
-          <p>January 2026 - April 2026</p>
-          <ul>
-            <li>Built automation tools to support mainframe deployments and test preparation.</li>
-            <li>Reduced manual handoffs with clear scripts and process documentation.</li>
-            <li>Improved developer and tester workflows for smoother release cycles.</li>
-            <li>Supported stronger data integrity checks and faster troubleshooting.</li>
-          </ul>
-
-          <h3>WebMaster</h3>
-          <p>History Department, University of Guelph</p>
-          <p>May 2024 - Present</p>
-          <ul>
-            <li>Designed and developed responsive websites and applications for academic use.</li>
-            <li>Collaborated with faculty to gather requirements and implement custom features.</li>
-            <li>Ensured accessibility and responsiveness across devices and browsers.</li>
-            <li>Supported project planning, milestones, and successful deliverables.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Projects</h2>
-          <h3>AI Voice Assistant - Jarvis AI</h3>
-          <p>April 2024</p>
-          <ul>
-            <li>Technologies Used: OpenAI GPT-3, Python, Speech Recognition, win32com.client, tkinter, Web Browser</li>
-            <li>Developed a voice-activated desktop assistant capable of processing and responding to natural language commands.</li>
-            <li>Integrated speech recognition for actions such as browsing, playing music, and providing updates.</li>
-          </ul>
-
-          <h3>Pool Game Development Project</h3>
-          <p>March 2024</p>
-          <ul>
-            <li>Technologies Used: UI/UX Design, Game Development, Python, Swig, C Programming, HTTPS, SQL</li>
-            <li>Created an interactive pool game experience with a supporting game state database.</li>
-          </ul>
-
-          <h3>Automated Data Processing and Visualization</h3>
-          <p>January 2024</p>
-          <ul>
-            <li>Technologies Used: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebooks</li>
-            <li>Built a data automation workflow for cleaning, analyzing, and visualizing datasets.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Career-Related Skills</h2>
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>Advanced in C, C++, Java, Python; proficient in JavaScript, jQuery, Ruby, C#, React, Angular, Node.js</li>
-            <li>Web Development: HTML, CSS, SVG</li>
-            <li>Tools: Android Studio, Unreal Engine, Adobe Illustrator, Photoshop</li>
-            <li>AWS: EC2, S3, RDS, Lambda, SQS, SNS</li>
-            <li>Software: Microsoft Office Suite, Power BI</li>
-          </ul>
-
-          <h3>Project Management and Analytical Skills</h3>
-          <ul>
-            <li>Managed deliverables, tracked issues, and implemented risk mitigation strategies.</li>
-          </ul>
-
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>Problem solving, communication, collaboration, and organization.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Volunteer and Community Activities</h2>
-          <h3>Team Leader, Project Serve</h3>
-          <p>September 2023</p>
-          <p>Led community volunteer initiatives with strong coordination and team leadership.</p>
-
-          <h3>Team Leader, Start International</h3>
-          <p>August 2023 - September 2023</p>
-          <p>Organized awareness activities on pollution and disaster management.</p>
-
-          <h3>President, Code Geeks Club</h3>
-          <p>May 2021 - July 2023</p>
-          <p>Increased membership, launched hackathons, and enhanced practical computing experiences.</p>
-
-          <h3>Team Leader, Tutora</h3>
-          <p>April 2021</p>
-          <p>Co-created a program to teach underprivileged children coding and STEM skills.</p>
-        </section>
-
-        <section>
-          <h2>Interests</h2>
-          <ul>
-            <li>Traveling, exploring new places, meeting people</li>
-            <li>Formula 1</li>
-          </ul>
-        </section>
+        <div class="resume-contact">
+          <span>Guelph, ON</span>
+          <span>519-731-6341</span>
+          <a href="mailto:shyaum@uoguelph.ca">shyaum@uoguelph.ca</a>
+          <a href="https://www.linkedin.com/in/shyaum-bhardwaj/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/ShyaumBhardwaj" target="_blank">GitHub</a>
+        </div>
       </div>
     </section>
+
+    <section class="section">
+      <h2>Education</h2>
+
+      <div class="resume-block">
+        <h3>Bachelor of Computing in Computer Science, Co-op</h3>
+        <p class="meta">University of Guelph &mdash; Guelph, ON | Expected April 2027</p>
+        <ul>
+          <li>Entrance Scholarship Recipient</li>
+          <li>GPA: 9/10</li>
+          <li>Minoring in Mathematics</li>
+        </ul>
+      </div>
+
+      <div class="resume-block">
+        <h3>Modern Delhi Public School</h3>
+        <p class="meta">Faridabad, India | Graduated June 2021</p>
+        <ul>
+          <li>CGPA: 9.5/10</li>
+          <li>Top 10% of the department</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+
+      <div class="resume-block">
+        <h3>Tech Systems Analyst</h3>
+        <p class="meta">RBC Mainframe Department &mdash; May 2025 to August 2025</p>
+        <ul>
+          <li>Supported enterprise mainframe operations and monitored nightly batch workloads.</li>
+          <li>Documented job dependencies, improved incident triage, and reduced response time.</li>
+          <li>Validated critical data flows and maintained production process reliability.</li>
+          <li>Prepared operational reports and improved visibility for operations stakeholders.</li>
+        </ul>
+      </div>
+
+      <div class="resume-block">
+        <h3>Developer</h3>
+        <p class="meta">RBC Mainframe Department &mdash; January 2026 to April 2026</p>
+        <ul>
+          <li>Built automation tools to support mainframe deployments and test preparation.</li>
+          <li>Reduced manual handoffs with clear scripts and process documentation.</li>
+          <li>Improved developer and tester workflows for smoother release cycles.</li>
+          <li>Supported stronger data integrity checks and faster troubleshooting.</li>
+        </ul>
+      </div>
+
+      <div class="resume-block">
+        <h3>WebMaster</h3>
+        <p class="meta">History Department, University of Guelph &mdash; May 2024 to December 2024</p>
+        <ul>
+          <li>Designed and developed responsive websites and applications for academic use.</li>
+          <li>Collaborated with faculty to gather requirements and implement custom features.</li>
+          <li>Ensured accessibility and responsiveness across devices and browsers.</li>
+          <li>Supported project planning, milestones, and successful deliverables.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+
+      <div class="resume-block">
+        <h3>AI Voice Assistant &mdash; Jarvis AI</h3>
+        <p class="meta">April 2024 &mdash; OpenAI GPT-3, Python, Speech Recognition, tkinter</p>
+        <ul>
+          <li>Developed a voice-activated desktop assistant capable of processing natural language commands.</li>
+          <li>Integrated speech recognition for actions such as browsing, playing music, and providing updates.</li>
+        </ul>
+      </div>
+
+      <div class="resume-block">
+        <h3>Pool Game Development</h3>
+        <p class="meta">March 2024 &mdash; Python, C, Swig, SQL</p>
+        <ul>
+          <li>Created an interactive pool game with a supporting game state database tracking ball positions per frame.</li>
+        </ul>
+      </div>
+
+      <div class="resume-block">
+        <h3>Automated Data Processing and Visualization</h3>
+        <p class="meta">January 2024 &mdash; Python, Pandas, Matplotlib, Seaborn, Jupyter</p>
+        <ul>
+          <li>Built a data automation workflow for cleaning, analyzing, and visualizing datasets.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>Languages</h4>
+          <p>C, C++, Java, Python, JavaScript, Ruby, C#, jQuery, React, Angular, Node.js</p>
+        </div>
+        <div class="card">
+          <h4>Web & Tools</h4>
+          <p>HTML, CSS, SVG, Bootstrap, Android Studio, Unreal Engine, Adobe Illustrator, Photoshop</p>
+        </div>
+        <div class="card">
+          <h4>Cloud & Infrastructure</h4>
+          <p>AWS: EC2, S3, RDS, Lambda, SQS, SNS &mdash; Git, CI/CD, Mainframe Operations</p>
+        </div>
+        <div class="card">
+          <h4>Soft Skills</h4>
+          <p>Problem solving, communication, collaboration, project management, and technical documentation</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Volunteer &amp; Community</h2>
+
+      <div class="resume-block">
+        <h3>Team Leader &mdash; Project Serve</h3>
+        <p class="meta">September 2023</p>
+        <p style="color: var(--text-secondary);">Led community volunteer initiatives with strong coordination and team leadership.</p>
+      </div>
+
+      <div class="resume-block">
+        <h3>Team Leader &mdash; Start International</h3>
+        <p class="meta">August 2023 &ndash; September 2023</p>
+        <p style="color: var(--text-secondary);">Organized awareness activities on pollution and disaster management.</p>
+      </div>
+
+      <div class="resume-block">
+        <h3>President &mdash; Code Geeks Club</h3>
+        <p class="meta">May 2021 &ndash; July 2023</p>
+        <p style="color: var(--text-secondary);">Increased membership 40%, launched annual hackathons, and enhanced practical computing experiences.</p>
+      </div>
+
+      <div class="resume-block">
+        <h3>Team Leader &mdash; Tutora</h3>
+        <p class="meta">April 2021</p>
+        <p style="color: var(--text-secondary);">Co-created a program teaching underprivileged children coding and STEM skills.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Interests</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>Travel</h4>
+          <p>Exploring new places, cultures, and meeting people around the world.</p>
+        </div>
+        <div class="card">
+          <h4>Formula 1</h4>
+          <p>Following the sport closely — strategy, engineering, and the competition.</p>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <div class="copyright">
-        <span>Copyright</span> <strong class="px-1 sitename">Shyaum Bhardwaj</strong> <span>All Rights Reserved</span>
-      </div>
-    </div>
+  <footer>
+    <p>&copy; 2024 Shyaum Bhardwaj | University of Guelph Co-op Report</p>
+    <p class="copyright">All rights reserved</p>
   </footer>
 
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>

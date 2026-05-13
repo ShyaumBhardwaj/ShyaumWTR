@@ -1,14 +1,14 @@
 :root {
-    --bg-dark: #0a0e27;
-    --bg-primary: #0f1424;
-    --surface-1: #1a1f3a;
-    --surface-2: #252d4a;
+    --bg-dark: #04060f;
+    --bg-primary: #070a18;
+    --surface-1: #0c1020;
+    --surface-2: #111828;
     --accent-cyan: #00d9ff;
     --accent-pink: #ff006e;
     --accent-purple: #8338ec;
-    --text-primary: #f0f4ff;
-    --text-secondary: #a8b8d8;
-    --text-muted: #7a8aaa;
+    --text-primary: #e8f0ff;
+    --text-secondary: #8fa8cc;
+    --text-muted: #5a7090;
 }
 
 * {
@@ -23,7 +23,7 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-    background: linear-gradient(135deg, var(--bg-dark) 0%, rgba(20, 30, 70, 0.5) 50%, var(--bg-dark) 100%);
+    background: var(--bg-dark);
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
@@ -34,10 +34,9 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(10, 14, 39, 0.85);
+    background: rgba(4, 6, 15, 0.92);
     backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--accent-cyan);
-    border-bottom-opacity: 0.2;
+    border-bottom: 1px solid rgba(0, 217, 255, 0.15);
 }
 
 header .container-fluid {
@@ -188,13 +187,11 @@ main {
 
 .section {
     background: var(--surface-1);
-    border: 1px solid var(--accent-cyan);
-    border-opacity: 15%;
+    border: 1px solid rgba(0, 217, 255, 0.12);
     border-radius: 16px;
     padding: 3rem;
     margin-bottom: 4rem;
-    backdrop-filter: blur(10px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
 }
 
 .section h2 {
@@ -221,8 +218,7 @@ main {
 
 .card {
     background: var(--surface-2);
-    border: 1px solid var(--accent-cyan);
-    border-opacity: 20%;
+    border: 1px solid rgba(0, 217, 255, 0.15);
     border-radius: 12px;
     padding: 2rem;
     transition: all 0.3s ease;
@@ -262,20 +258,25 @@ main {
     width: 100%;
     border-radius: 12px;
     overflow: hidden;
-    margin: 2rem 0;
-    border: 2px solid var(--accent-cyan);
-    border-opacity: 30%;
+    border: 1px solid rgba(0, 217, 255, 0.2);
 }
 
 .image-container img {
     width: 100%;
-    height: auto;
+    height: 220px;
+    object-fit: cover;
     display: block;
     transition: transform 0.3s ease;
 }
 
 .image-container:hover img {
-    transform: scale(1.05);
+    transform: scale(1.03);
+}
+
+.images-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .image-caption {
@@ -312,8 +313,7 @@ main {
 
 .timeline-content {
     background: var(--surface-2);
-    border: 1px solid var(--accent-cyan);
-    border-opacity: 20%;
+    border: 1px solid rgba(0, 217, 255, 0.15);
     border-radius: 12px;
     padding: 2.5rem;
     position: relative;
@@ -354,8 +354,7 @@ main {
 
 footer {
     background: var(--surface-1);
-    border-top: 1px solid var(--accent-cyan);
-    border-top-opacity: 15%;
+    border-top: 1px solid rgba(0, 217, 255, 0.12);
     padding: 3rem 2rem;
     text-align: center;
     margin-top: 6rem;
@@ -520,6 +519,81 @@ footer p {
     .about-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* Resume page */
+.resume-block {
+    border-left: 2px solid rgba(0, 217, 255, 0.4);
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.resume-block h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+    font-size: 1.1rem;
+}
+
+.resume-block .meta {
+    color: var(--accent-cyan);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-block ul {
+    color: var(--text-secondary);
+    padding-left: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.resume-block li {
+    margin-bottom: 0.4rem;
+}
+
+.resume-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.resume-contact a {
+    color: var(--accent-cyan);
+    text-decoration: none;
+}
+
+/* Contact page */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.contact-list li {
+    background: var(--surface-2);
+    border: 1px solid rgba(0, 217, 255, 0.15);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    color: var(--text-secondary);
+}
+
+.contact-list li strong {
+    color: var(--accent-cyan);
+    margin-right: 0.5rem;
+}
+
+.contact-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-list a:hover {
+    color: var(--accent-cyan);
 }
 
 @media (max-width: 768px) {
